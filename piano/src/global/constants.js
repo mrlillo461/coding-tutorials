@@ -2,19 +2,19 @@ const VALID_BLACK_KEYS = ["w", "e", "t", "y", "u"];
 const VALID_WHITE_KEYS = ["a", "s", "d", "f", "g", "h", "j", "k"];
 const VALID_KEYS = [...VALID_BLACK_KEYS, ...VALID_WHITE_KEYS];
 const NOTES = [
-  "c",
-  "df",
-  "d",
-  "ef",
-  "e",
-  "f",
-  "gf",
-  "g",
-  "af",
-  "a",
-  "bf",
-  "b",
-  "ca",
+  "do",
+  "do#",
+  "re",
+  "re#",
+  "mi",
+  "fa",
+  "fa#",
+  "sol",
+  "sol#",
+  "la",
+  "la#",
+  "si",
+  "do",
 ];
 const NOTE_TO_KEY = {
   c: "a",

@@ -6,7 +6,8 @@ import { NOTE_TO_KEY } from "../global/constants";
 
 class Key extends React.Component {
   noteIsFlat = (note) => {
-    return note.length > 1 && note.includes("f");
+    // return note.length > 1 && note.includes("f");
+    return note.includes("#");
   };
 
   keyIsPressed = (note, pressedKeys) => {

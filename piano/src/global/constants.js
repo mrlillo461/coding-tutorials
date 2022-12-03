@@ -3,7 +3,6 @@ const VALID_WHITE_KEYS = ["a", "s", "d", "f", "g", "h", "j", "k"];
 const VALID_KEYS = [...VALID_BLACK_KEYS, ...VALID_WHITE_KEYS];
 const NOTES = [
   "c",
-  "c8",
   "df",
   "d",
   "ef",
@@ -15,10 +14,10 @@ const NOTES = [
   "a",
   "bf",
   "b",
+  "ca",
 ];
 const NOTE_TO_KEY = {
   c: "a",
-  c8: "k",
   df: "w",
   d: "s",
   ef: "e",
@@ -30,10 +29,10 @@ const NOTE_TO_KEY = {
   a: "h",
   bf: "u",
   b: "j",
+  ca: "k",
 };
 const KEY_TO_NOTE = {
   a: "c",
-  k: "c8",
   w: "df",
   s: "d",
   e: "ef",
@@ -45,5 +44,6 @@ const KEY_TO_NOTE = {
   h: "a",
   u: "bf",
   j: "b",
+  k: "ca",
 };
 export { NOTES, VALID_KEYS, NOTE_TO_KEY, KEY_TO_NOTE };
